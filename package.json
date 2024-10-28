@@ -1,0 +1,20 @@
+{
+  "name": "domain-info-viewer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'No build step necessary for Express server'", 
+    "start": "NODE_ENV=production pm2 start server.js --name my-express-server",
+    "stop": "pm2 stop my-express-server",
+    "restart": "pm2 restart my-express-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "node-fetch": "^3.3.2"
+  }
+}
